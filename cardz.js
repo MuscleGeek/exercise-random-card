@@ -22,23 +22,23 @@ let numberGen = myCardNumbers[randomNumbers];
 
 /*------- BEGIN data => IDs -----*/
 
-let idHead = document.querySelector('.my-head');
+let idHead = document.querySelector('#colorSuit1');
     idHead.innerHTML = cardSharp;
-    /*---BEGIN Red Ones --- *******Changing card suit color via condition statement... but I couldn't got it working yet ****
+    /*---BEGIN Red Ones --- ****/
 if(cardSharp === '♦' || cardSharp === '♥'){
-    document.querySelector('.my-header').style.color = "red";
-    document.querySelector('.my-footer').style.color = "red";
+    document.querySelector('#colorSuit1').style.color = "red";
+    document.querySelector('#colorSuit2').style.color = "red";
 }
     /*---END Red Ones ---*/
 let idBody = document.querySelector('h1');
     idBody.innerHTML = numberGen;
     
-let idFooter = document.querySelector('.my-footer');
+let idFooter = document.querySelector('#colorSuit2');
     idFooter.innerHTML = cardSharp;
-    /*---BEGIN Black Ones---  *******Changing card suit color via condition statement... but I couldn't got it working yet ****
+    /*---BEGIN Black Ones---*/
     if(cardSharp === '♣'|| cardSharp === '♠'){
-    document.querySelector('.my-header').style.color = "black";
-    document.querySelector('.my-footer').style.color = "black";
+    document.querySelector('#colorSuit1').style.color = "black";
+    document.querySelector('#colorSuit2').style.color = "black";
     }
     /*---END Black Ones---*/
 } /*----END Window.onload Event ---*/
