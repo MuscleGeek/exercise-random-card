@@ -19,11 +19,14 @@ body {
     position: absolute;   
 }
 
-.body-path {
+.main-path {
     font-size: 75px;
     position: absolute;
     top: 95px;
     bottom: 105;
+    border: 2px solid red;
+    height: 400px;
+    width: 100%;
 }
 .footer-path{
     position: absolute;
