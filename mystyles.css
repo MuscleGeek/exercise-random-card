@@ -5,31 +5,36 @@ body {
 .cardBody {
     height: 550px;
     width: 310px;
-    background: #dadada;
+    background: white;
     top: 5%;
     left: 35%;
     border-radius: 13px;
     position: absolute;
 }
 
-.head-path {
+.my-head {
     font-size: 75px;
     top:15px;
     left: 15px;
     position: absolute;   
 }
 
-.main-path {
+.my-main {
     font-size: 75px;
     position: absolute;
-    top: 95px;
-    bottom: 105;
-    border: 2px solid red;
-    height: 400px;
-    width: 100%;
+    top: 100px;
+    bottom: 105px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-.footer-path{
+
+.my-footer{
     position: absolute;
     right: 15px;
     bottom: 15px;
+    font-size: 75px;
+    
 }
