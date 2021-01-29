@@ -1,0 +1,32 @@
+body {
+    background: green;
+}
+
+.cardBody {
+    height: 550px;
+    width: 310px;
+    background: #dadada;
+    top: 5%;
+    left: 35%;
+    border-radius: 13px;
+    position: absolute;
+}
+
+.head-path {
+    font-size: 75px;
+    top:15px;
+    left: 15px;
+    position: absolute;   
+}
+
+.body-path {
+    font-size: 75px;
+    position: absolute;
+    top: 95px;
+    bottom: 105;
+}
+.footer-path{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
