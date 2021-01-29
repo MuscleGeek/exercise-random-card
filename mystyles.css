@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 100px;
     bottom: 105px;
-    left: 100px;
+    left: 105px;
     display: flex;
     flex-direction: column;
     justify-content: center;
